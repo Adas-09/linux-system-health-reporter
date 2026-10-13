@@ -1,0 +1,21 @@
+==================================
+       Linux System Health Report
+==================================
+
+Hostname: example-linux-pc
+Date: Example date/time (replace by running the script)
+Kernel: Example kernel version
+Operating System: Example Linux distribution
+
+Disk Usage:
+Example output from: df -h /
+
+Memory Usage:
+Example output from: free -h
+
+Top Processes (by CPU):
+Example output from: ps -eo pid,comm,%cpu,%mem --sort=-%cpu | head -n 6
+
+==================================
+This is a placeholder example.
+Run ./system_report.sh to generate a report from your own system.
